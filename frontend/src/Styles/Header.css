@@ -18,7 +18,6 @@
 	background-color: #ede7d9; /* Light cream background for logged-in users */
 	/* Other styles for logged-in state */
 }
-
 .section__container {
 	max-width: 1200px;
 	margin: 0 auto;
