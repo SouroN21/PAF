@@ -10,8 +10,8 @@ spring:
   profiles:
     active: dev
   data:
-    mongodb:
-      uri: mongodb+srv://izu99:TDsFSwDtJ7B1n8m5@cluster0.ghixis6.mongodb.net/oauthdb?retryWrites=true&w=majority&appName=Cluster0&ssl=true&tlsAllowInvalidCertificates=true
+   mongodb:
+      uri: mongodb+srv://itpm2025sliit:sliit@itmp.uaxla.mongodb.net/skill?retryWrites=true&w=majority&appName=ITMP
       database: ${MONGODB_DB}
   security:
     oauth2:
