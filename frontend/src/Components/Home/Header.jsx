@@ -2,8 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import Navbar from "./Navbar";
 import AuthModal from "../Modals/AuthModal";
-import AuthService from "../../Services/AuthService";
-
+import AuthService from "../../Services/AuthService"
 const Header = () => {
   const navigate = useNavigate();
   const [isAuthModalOpened, setIsAuthModalOpened] = useState(false);
