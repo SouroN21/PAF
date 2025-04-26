@@ -5,7 +5,6 @@ import Community from './Views/Community';
 import OAuthCallback from './Components/Home/OAuthCallbackHandler';
 
 // ProtectedRoute to check if the user is authenticated
-
 const ProtectedRoute = ({ children }) => {
   const isAuthenticated = localStorage.getItem('userId') && localStorage.getItem('accessToken');
   if (!isAuthenticated) {
