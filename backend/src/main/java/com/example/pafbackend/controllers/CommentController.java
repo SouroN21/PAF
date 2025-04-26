@@ -14,7 +14,6 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/api/comments")
 public class CommentController {
-
     @Autowired
     private CommentRepository commentRepository;
 
