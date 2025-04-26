@@ -12,7 +12,6 @@ const state = proxy({
   activeIndex: 1,
   selectedUserProfile: null,
   friendProfileModalOpened: false,
-  
   // Skill Plan section
   skillPlans: [], // Array to store skill plans
   createSkillPlanOpened: false, // To track if the "create skill plan" modal is open
