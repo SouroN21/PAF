@@ -10,7 +10,6 @@ import "../Styles/NotificationCard.css";
 import "../Styles/FriendSection.css";
 import "../Styles/SkillPlan.css";
 import "../Styles/SkillPlanBox.css";
-
 import CreateStoryModal from "../Components/Modals/CreateStoryModal";
 import Story from "../Components/Modals/Story";
 import StoryService from "../Services/StoryService";
