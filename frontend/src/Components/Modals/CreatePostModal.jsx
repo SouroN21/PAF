@@ -5,7 +5,6 @@ import state from "../../Utils/Store";
 import UploadFileService from "../../Services/UploadFileService";
 import { UploadOutlined } from "@ant-design/icons";
 import PostService from "../../Services/PostService";
-
 const uploader = new UploadFileService();
 
 const CreatePostModal = () => {

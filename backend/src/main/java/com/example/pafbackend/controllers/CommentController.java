@@ -9,7 +9,6 @@ import com.example.pafbackend.repositories.CommentRepository;
 import com.example.pafbackend.repositories.UserRepository;
 import java.util.List;
 import java.util.Optional;
-
 @RestController
 @RequestMapping("/api/comments")
 public class CommentController {
