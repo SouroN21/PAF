@@ -7,7 +7,6 @@ const Header = () => {
   const navigate = useNavigate();
   const [isAuthModalOpened, setIsAuthModalOpened] = useState(false);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
-  
   useEffect(() => {
     const checkLoginStatus = () => {
       const isAuthenticated = AuthService.isAuthenticated();
