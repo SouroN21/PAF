@@ -7,7 +7,6 @@ import com.example.pafbackend.models.Comment;
 import com.example.pafbackend.models.User;
 import com.example.pafbackend.repositories.CommentRepository;
 import com.example.pafbackend.repositories.UserRepository;
-
 import java.util.List;
 import java.util.Optional;
 
