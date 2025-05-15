@@ -6,7 +6,6 @@ import NotificationsDropdown from "./NotificationsDropdown";
 const Navbar = () => {
   const snap = useSnapshot(state);
   const currentUser = snap.currentUser;
-
   return (
     <nav id="nav-bar">
       <div class="left">
