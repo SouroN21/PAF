@@ -5,7 +5,6 @@ import UserService from "../../Services/UserService";
 import { BASE_URL } from "../../constants";
 import state from "../../Utils/Store";
 // import "../Styles/CommentCard.css";
-
 const CommentCard = ({ comment }) => {
   const [userData, setUserData] = useState();
 
